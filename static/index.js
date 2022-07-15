@@ -645,7 +645,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         saveImage(img, r => {
             clickBeforeStyle.html(`
                 .t1, .t2, .t3, .t4, .t5 {
-                   background-size: auto 100%;
+                   background-size: auto 50%;
                    background-image: url(${r});
             }`);
         })
